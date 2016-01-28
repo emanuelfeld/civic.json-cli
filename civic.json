@@ -1,0 +1,24 @@
+{
+    "name": "civic.json (extended) CLI", 
+    "description": "CLI to make the civic.json (extended) specification easier to use.", 
+    "license": "CC0-1.0", 
+    "status": "Alpha",
+    "homepage": "http://open.dc.gov/civic.json", 
+    "repository": "https://github.com/DCgov/civic.json-cli", 
+    "thumbnail": "", 
+    "geography": [], 
+    "contact": {
+        "name": "Emanuel Feld", 
+        "email": "open@dc.gov"
+    }, 
+    "partners": [
+        {
+            "name": "OCTO Innovation Program", 
+            "email": "open@dc.gov"
+        }
+    ], 
+    "data": [], 
+    "keywords": ["civic.json", "civic"], 
+    "links": [], 
+    "id": "https://raw.githubusercontent.com/DCgov/civic.json/master/schema.json"
+}
