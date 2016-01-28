@@ -48,7 +48,7 @@ Tools to make the civic.json (extended) specification easy to use.
     ],
     packages=find_packages(),
     include_package_data=True,
-    install_requires=['jsonschema>=2.5.1'],
+    install_requires=['jsonschema>=2.5.1', 'requests>=2.9.1'],
     extras_require={
         'tests': tests_require,
     },
