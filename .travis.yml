@@ -18,4 +18,4 @@ install:
 
 script:
     # run tests
-    - make test
+    - make tox
