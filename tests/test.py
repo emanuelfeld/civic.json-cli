@@ -25,7 +25,7 @@ def test_has_proper_version():
 def test_downloads_template():
     cmd = ['civicjson', 'init']
     out = subprocess_helper(cmd)
-    eq_(out.strip(), 'civic.json created in /Users/emanuelfeld/Documents/civicjson')
+    assert 'civic.json created in' in out.strip()
 
 
 def test_validates_civicjson():

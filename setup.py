@@ -39,7 +39,7 @@ setup(
     include_package_data=True,
     install_requires=['jsonschema>=2.5.1', 'requests>=2.9.1'],
     test_suite='nose.collector',
-    tests_require=['nose-progressive', 'tox'],
+    tests_require=['nose-progressive>=1.5.1', 'coverage>=4.1', 'tox>=2.3.1'],
     entry_points={
         'console_scripts': [
             'civicjson=civicjson.commands:main'
