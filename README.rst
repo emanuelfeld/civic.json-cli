@@ -33,12 +33,12 @@ Use
 Create a civic.json file
 ___________________________
 
-Run `civicjson init` from the base directory of your repository to initialize a civic.json file (with explanatory text).
+Run :code:`civicjson init` from the base directory of your repository to initialize a civic.json file (with explanatory text).
 
 Validate a civic.json file
 ___________________________
 
-Run `civicjson validate` from the folder containing your civic.json file. If there are any errors, it will output them to the console.
+Run :code:`civicjson validate` from the folder containing your civic.json file. If there are any errors, it will output them to the console.
 
 Getting Involved
 =================
