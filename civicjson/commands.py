@@ -2,7 +2,7 @@
 # -*- codes: utf-8 -*-
 
 import sys
-from civicjson import add_template, validate_file
+from .civicjson import add_template, validate_file
 
 
 def usage():
@@ -14,8 +14,7 @@ def usage():
     print(message)
 
 
-def main():
-    args = sys.argv
+def main(args=sys.argv):
     args.pop(0)
     try:
         if args[0] == 'init':

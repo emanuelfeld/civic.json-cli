@@ -1,8 +1,8 @@
 # This file is part of civicjson.
-# https://github.com/DCgov/civic.json
+# https://github.com/DCgov/civic.json-cli
 
 # Licensed under the CC0-1.0 license:
-# http://www.opensource.org/licenses/CC0-1.0-license
+# https://creativecommons.org/publicdomain/zero/1.0/
 # Copyright (c) 2016, Emanuel Feld <elefbet@gmail.com>
 
 # lists all available targets
@@ -19,8 +19,7 @@ setup:
 test: unit
 
 unit:
-	@coverage run --branch `which nosetests` -vv --with-yanc -s tests/
-	@coverage report -m --fail-under=80
+	@coverage run --source=civicjson setup.py test
 
 # show coverage in html format
 coverage-html: unit
@@ -29,6 +28,3 @@ coverage-html: unit
 # run tests against all supported python versions
 tox:
 	@tox
-
-#docs:
-	#@cd civicjson/docs && make html && open _build/html/index.html

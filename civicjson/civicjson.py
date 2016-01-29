@@ -9,7 +9,7 @@ from collections import OrderedDict
 from jsonschema import Draft4Validator
 
 
-def add_template(name=""):
+def add_template():
     success = False
     try:
         repo_dir = os.getcwd()
