@@ -1,0 +1,24 @@
+{
+    "name": "civic.json-cli", 
+    "description": "Command line tools to make using civic.json easy.", 
+    "license": "CC0-1.0", 
+    "status": "Beta",
+    "homepage": "http://open.dc.gov/civic.json/", 
+    "repository": "https://github.com/DCgov/civic.json-cli", 
+    "thumbnail": "", 
+    "geography": [], 
+    "contact": {
+        "name": "Emanuel Feld", 
+        "email": "open@dc.gov"
+    }, 
+    "partners": [
+        {
+            "name": "OCTO Innovation Program", 
+            "email": "open@dc.gov"
+        }
+    ], 
+    "data": [], 
+    "keywords": ["civic", "civic.json"], 
+    "links": [], 
+    "id": "https://raw.githubusercontent.com/DCgov/civic.json/master/schema.json"
+}
