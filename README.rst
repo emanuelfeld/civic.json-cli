@@ -2,6 +2,9 @@
 civic.json-cli
 ===============
 
+.. image:: https://img.shields.io/pypi/v/civicjson.svg
+    :target: https://pypi.python.org/pypi/civicjson
+
 civic.json-cli is a command line interface that helps make civic.json easier to use. This tool will let you:
 
 1. Install a civic.json template to your repository
